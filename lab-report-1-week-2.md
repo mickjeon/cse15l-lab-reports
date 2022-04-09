@@ -23,8 +23,15 @@
 ## Setting an SSH Key
 1. On client, type `$ ssh-keygen`
 2. Change to remote server and type `ls -a` to see if `.ssh` directory already exists. If not, make a directory by typing `mkdir .ssh`
-3. Move back to client, and enter the following command: `$ scp /Users/mickjeon/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys`
+3. Move back to client(`exit`), and enter the following command: `$ scp /Users/mickjeon/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys`
 4. If successful, you will not be prompted to type in a password when typing command `ssh cs15lsp22aru@ieng6.ucsd.edu`
 ![keygen](keygen.png)
 
 ## Optimize Remote Running
+The following example is an optimized way to copy a file on the server, compiling, and running with using less than 10 key strokes
+1. Type on Client `ssh cs15lsp22aru@ieng6.ucsd.edu`
+2. Type on Server `cp WhereAmI.java OtherMain.java; "javac OtherMain.java; java WhereAmI"`
+3. Change back to Client(`exit`)
+4. Press arrow up to retreive command `ssh cs15lsp22aru@ieng6.ucsd.edu` 
+5. Once on client, press arrow up to retreive command `cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
+* The output should be as following: ![optimize](optimize.png)
