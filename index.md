@@ -23,8 +23,6 @@ Hi my name is Mick.
 3. enumerate3
 
 ---
-
-'for(int i = 0; i < length; i++)' for loop
 `for(int i = 0; i < length; i++)` with bar ticks
 
 ```
