@@ -22,13 +22,12 @@ Hi my name is Mick.
 2. enumerate2
 3. enumerate3
 
-Horizontal rule:
 ---
 
 'for(int i = 0; i < length; i++)' for loop
 `for(int i = 0; i < length; i++)` with bar ticks
 
-'''
+```
 System.out.print("Hi");
 System.out.println();
-'''
+```
