@@ -1,1 +1,1 @@
-.
+![Github_page_screenshot](/Users/mickjeon/Documents/GitHub/cse15l-lab-reports/github.png)
