@@ -2,8 +2,9 @@ Hi my name is Mick.
 
 *Italic Text*
 
-**Bold Text**
 
+
+**This is an added line**
 # Heading 1
 ## Heading 2
 
