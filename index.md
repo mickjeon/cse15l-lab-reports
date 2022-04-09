@@ -26,8 +26,9 @@ Horizontal rule:
 ---
 
 'for(int i = 0; i < length; i++)' for loop
+`for(int i = 0; i < length; i++)` with bar ticks
 
-# code block
+'''
 System.out.print("Hi");
 System.out.println();
-
+'''
