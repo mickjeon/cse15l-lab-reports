@@ -9,7 +9,7 @@ Hi my name is Mick.
 
 [amazon](http://amazon.com)
 
-![Dice](https://en.wikipedia.org/wiki/Portable_Network_Graphics#/media/File:PNG_transparency_demonstration_1.png)
+![Dice](https://upload.wikimedia.org/wikipedia/commons/1/17/PNG-Gradient_hex.png)
 
 > Blockquote
 > Hi this is a test for block quote
