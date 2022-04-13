@@ -1,3 +1,8 @@
+#Heading Link to Lab Reports
+[lab-report-1](https://github.com/mickjeon/cse15l-lab-reports/blob/main/lab-report-1-week-2.md)
+
+
+
 Hi my name is Mick.
 
 *Italic Text*
