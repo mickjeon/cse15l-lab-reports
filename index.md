@@ -1,4 +1,4 @@
-#Heading Link to Lab Reports
+# Link to Lab Reports
 [lab-report-1](https://github.com/mickjeon/cse15l-lab-reports/blob/main/lab-report-1-week-2.md)
 
 
