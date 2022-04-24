@@ -1,6 +1,6 @@
 # Link to Lab Reports
 [lab-report-1](https://mickjeon.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
-
+[lab-report-2](https://mickjeon.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
 
 
 
