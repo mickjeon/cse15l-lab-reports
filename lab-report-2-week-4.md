@@ -28,6 +28,7 @@ Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 * Symptom: 
 ```
  Output: [image.png]
+ // The output should be [] to not include the image link.
 ```
 * Write 2-3 sentences describing the relationship between the bug
 
