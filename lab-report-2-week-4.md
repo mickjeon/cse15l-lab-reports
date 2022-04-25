@@ -19,7 +19,7 @@ Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
         at MarkdownParse.getLinks(MarkdownParse.java:19)
         at MarkdownParse.main(MarkdownParse.java:29)
 ```
-* Write 2-3 sentences describing the relationship between the bug
+* The symptom of this first failure inducing input is that the while loop inside the getLinks() method falls into an infinite loop. The failure inducing input has a new line at the end of the first line and triggers the infinite loop. The bug is that the terminating condition is not met inside the while loop and I fixed it by adding a condition to break the while loop.
 
 ### 2. Second Failure-Inducing Input
 * Screenshot of the code change:
@@ -30,7 +30,7 @@ Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
  Output: [image.png]
  // The output should be [] to not include the image link.
 ```
-* Write 2-3 sentences describing the relationship between the bug
+* The symptom of this second failure inducing input is that MarkdownParse.java outputs the an image link while it's not supposed to. The failure inducing input has an image link in the .md file. In order to fix a bug where it prints out an image link, I added a condition to disregard an image link using "!" detection.
 
 ### 3. Third Failure-Inducing Input
 * Screenshot of the code change:
@@ -44,4 +44,4 @@ Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, e
         at MarkdownParse.getLinks(MarkdownParse.java:26)
         at MarkdownParse.main(MarkdownParse.java:39)
 ```
-* Write 2-3 sentences describing the relationship between the bug
+* The symptom of this third failure inducing input is that an error occurs when an .md file does not contains any link. The failure inducing input only has a Heading and a bold text. In order to fix this bug, I added a condition in which "[", "]", "(", ")" are not included in the .md file, I terminate the while loop as soon as it is entered.
