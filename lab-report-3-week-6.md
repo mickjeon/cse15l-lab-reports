@@ -1,4 +1,5 @@
 # Lab Report 3, Week 6
+[Back to index page](https://mickjeon.github.io/cse15l-lab-reports/index.html)
 
 ## Streamlining ssh Configuration
 * **.ssh/config content:**
