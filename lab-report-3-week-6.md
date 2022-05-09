@@ -19,4 +19,8 @@
 
 ## Copy whole directories with scp -r
 * **Copying a whole directory**
-* ****
+![directory copy](report_3_3_1.png)
+* **ssh, compile, and run**
+![on remote server](report_3_3_4.png)
+* **One line command**
+![one line](report_3_3_3.png)
