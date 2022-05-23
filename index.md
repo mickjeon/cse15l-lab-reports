@@ -2,6 +2,7 @@
 1. [lab-report-1](https://mickjeon.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 2. [lab-report-2](https://mickjeon.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
 3. [lab-report-3](https://mickjeon.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
+4. [lab-report-4](https://mickjeon.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
 
 
 
